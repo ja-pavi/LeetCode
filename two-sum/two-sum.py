@@ -8,4 +8,3 @@ class Solution:
                 return [i, seen[remaining]]
             else:
                 seen[value] = i
-        

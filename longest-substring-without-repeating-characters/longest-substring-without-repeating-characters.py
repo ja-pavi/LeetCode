@@ -7,7 +7,7 @@ class Solution:
         for r in range(len(s)):
             if s[r] not in seen:
                 output = max(output, r - l + 1)
-                
+            
             else:
                 if seen[s[r]] < l:
                     output = max(output, r - l + 1)
